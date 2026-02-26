@@ -1,10 +1,13 @@
-package com.joescaos.product_crud.entity;
+package com.joescaos.library_crud.entity;
 
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -12,17 +15,18 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
-import org.springframework.data.annotation.CreatedDate;
 
 import java.time.Instant;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-@Table(name = "products")
-public class Product {
+@Table(name = "authors")
+public class Author {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -30,14 +34,14 @@ public class Product {
 
     private String name;
 
-    private String description;
+    @Column(name = "last_name")
+    private String lastName;
 
-    private Double cost;
+    private String genre;
 
-    @Column(name = "is_available")
-    private Boolean isAvailable;
+    private String nationality;
 
-    private Integer amount;
+    private Instant birthdate;
 
     @CreationTimestamp
     @Column(name = "created_at", updatable = false)
@@ -47,5 +51,7 @@ public class Product {
     @Column(name = "updated_at")
     private Instant updatedAt;
 
+    @OneToMany(mappedBy = "author", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<Book> books = new ArrayList<>();
 
 }

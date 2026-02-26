@@ -1,13 +1,13 @@
-package com.joescaos.product_crud;
+package com.joescaos.library_crud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProductCrudApplication {
+public class LibraryCrudApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProductCrudApplication.class, args);
+		SpringApplication.run(LibraryCrudApplication.class, args);
 	}
 
 }
