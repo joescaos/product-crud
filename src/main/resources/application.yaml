@@ -6,7 +6,7 @@ spring:
     name: book-author-api
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/productsdb
+    url: jdbc:postgresql://localhost:5432/librarydb
     username: postgres
     password: postgres
     driver-class-name: org.postgresql.Driver

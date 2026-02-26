@@ -6,6 +6,7 @@ import com.joescaos.library_crud.mapper.AuthorMapper;
 import com.joescaos.library_crud.repository.AuthorRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -16,15 +17,17 @@ public class AuthorService {
     private final AuthorRepository authorRepository;
     private final AuthorMapper authorMapper;
 
+    @Transactional(readOnly = true)
     public List<AuthorDto> findAll() {
-        return authorRepository.findAll()
+        return authorRepository.findAllWithBooks()
                 .stream()
                 .map(authorMapper::toDTO)
                 .toList();
     }
 
+    @Transactional(readOnly = true)
     public AuthorDto findById(Long id) {
-        Author author = authorRepository.findById(id)
+        Author author = authorRepository.findByIdWithBooks(id)
                 .orElseThrow(() -> new RuntimeException("Author not found"));
 
         return authorMapper.toDTO(author);

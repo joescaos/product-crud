@@ -3,7 +3,6 @@ package com.joescaos.library_crud.mapper;
 import com.joescaos.library_crud.dto.AuthorDto;
 import com.joescaos.library_crud.dto.BookDto;
 import com.joescaos.library_crud.entity.Author;
-import com.joescaos.library_crud.entity.Book;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 
