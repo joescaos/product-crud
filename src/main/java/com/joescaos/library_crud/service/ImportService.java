@@ -36,8 +36,8 @@ public class ImportService {
             for (CSVRecord record : csvParser) {
                 AuthorDto authorDto = new AuthorDto(
                         null,
-                        record.get("author_name"),
-                        record.get("author_last_name"),
+                        record.get("name"),
+                        record.get("lastName"),
                         record.get("genre"),
                         record.get("nationality"),
                         Instant.parse(record.get("birthdate")),
