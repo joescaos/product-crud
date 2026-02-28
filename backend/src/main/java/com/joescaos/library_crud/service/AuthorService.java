@@ -34,7 +34,10 @@ public class AuthorService {
     }
 
     public AuthorDto create(Author author) {
-        return authorMapper.toDTO(authorRepository.save(author));
+        var saved = authorRepository.save(author);
+        var authorWithBooks = authorRepository.findByIdWithBooks(author.getId())
+                .orElse(saved);
+        return authorMapper.toDTO(authorWithBooks);
     }
 
     public AuthorDto update(Long id, Author updated) {
