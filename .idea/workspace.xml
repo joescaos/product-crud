@@ -4,34 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d7181e9-8f2a-46d6-ae44-534d2b665a58" name="Changes" comment="docker added">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/backend/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/backend/authors.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/backend/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/backend/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joescaos/library_crud/LibraryCrudApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/joescaos/library_crud/LibraryCrudApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joescaos/library_crud/controller/AuthorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/joescaos/library_crud/controller/AuthorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joescaos/library_crud/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/joescaos/library_crud/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joescaos/library_crud/controller/ImportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/joescaos/library_crud/controller/ImportController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joescaos/library_crud/dto/AuthorDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/joescaos/library_crud/dto/AuthorDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joescaos/library_crud/dto/BookDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/joescaos/library_crud/dto/BookDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joescaos/library_crud/entity/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/joescaos/library_crud/entity/Author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joescaos/library_crud/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/joescaos/library_crud/entity/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joescaos/library_crud/mapper/AuthorMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/joescaos/library_crud/mapper/AuthorMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joescaos/library_crud/mapper/BookMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/joescaos/library_crud/mapper/BookMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joescaos/library_crud/repository/AuthorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/joescaos/library_crud/repository/AuthorRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joescaos/library_crud/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/joescaos/library_crud/repository/BookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joescaos/library_crud/service/AuthorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/joescaos/library_crud/service/AuthorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joescaos/library_crud/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/joescaos/library_crud/service/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joescaos/library_crud/service/ImportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/joescaos/library_crud/service/ImportService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="9d7181e9-8f2a-46d6-ae44-534d2b665a58" name="Changes" comment="frontend added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -173,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772071570719</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="frontend added">
+      <option name="closed" value="true" />
+      <created>1772247532951</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1772247532951</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -181,6 +162,7 @@
     <MESSAGE value="added created at and updated at to entity" />
     <MESSAGE value="service change to handle books and authors" />
     <MESSAGE value="docker added" />
-    <option name="LAST_COMMIT_MESSAGE" value="docker added" />
+    <MESSAGE value="frontend added" />
+    <option name="LAST_COMMIT_MESSAGE" value="frontend added" />
   </component>
 </project>
