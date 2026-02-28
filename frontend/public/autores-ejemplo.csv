@@ -1,0 +1,15 @@
+name,lastName,genre,nationality,birthdate,title,description,book_genre,is_available,amount_sold,publication_date
+Gabriel,García Márquez,Realismo mágico,Colombiano,1927-03-06T00:00:00Z,Cien años de soledad,Historia de la familia Buendía,Realismo mágico,true,1000000,1967-05-30T00:00:00Z
+Gabriel,García Márquez,Realismo mágico,Colombiano,1927-03-06T00:00:00Z,El amor en los tiempos del cólera,Historia de amor épica,Novela romántica,true,750000,1985-09-05T00:00:00Z
+Isabel,Allende,Novela histórica,Chilena,1942-08-02T00:00:00Z,La casa de los espíritus,Saga familiar chilena,Realismo mágico,true,500000,1982-01-01T00:00:00Z
+Julio,Cortázar,Ficción surrealista,Argentino,1914-08-26T00:00:00Z,Rayuela,Novela experimental,Ficción,true,300000,1963-06-28T00:00:00Z
+Mario,Vargas Llosa,Novela política,Peruano,1936-03-28T00:00:00Z,La ciudad y los perros,Crítica social militar,Novela política,true,400000,1963-01-01T00:00:00Z
+Jorge,Luis Borges,Ficción filosófica,Argentino,1899-08-24T00:00:00Z,Ficciones,Colección de cuentos filosóficos,Ficción,false,250000,1944-01-01T00:00:00Z
+Pablo,Neruda,Poesía,Chileno,1904-07-12T00:00:00Z,Veinte poemas de amor,Colección poética,Poesía,true,800000,1924-01-01T00:00:00Z
+Laura,Esquivel,Realismo mágico,Mexicana,1950-09-30T00:00:00Z,Como agua para chocolate,Novela romántica gastronómica,Realismo mágico,true,600000,1989-01-01T00:00:00Z
+Carlos,Ruiz Zafón,Misterio,Español,1964-09-25T00:00:00Z,La sombra del viento,Misterio literario,Misterio,true,900000,2001-04-12T00:00:00Z
+Miguel,de Cervantes,Novela clásica,Español,1547-09-29T00:00:00Z,Don Quijote de la Mancha,Novela clásica universal,Novela clásica,true,2000000,1605-01-16T00:00:00Z
+Federico,García Lorca,Poesía dramática,Español,1898-06-05T00:00:00Z,Bodas de sangre,Tragedia teatral,Drama,true,150000,1933-01-01T00:00:00Z
+Juan,Rulfo,Realismo rural,Mexicano,1917-05-16T00:00:00Z,Pedro Páramo,Novela corta mexicana,Realismo mágico,true,350000,1955-01-01T00:00:00Z
+Rosario,Castellanos,Literatura social,Mexicana,1925-05-25T00:00:00Z,Balún Canán,Novela social mexicana,Literatura social,true,120000,1957-01-01T00:00:00Z
+Camilo,José Cela,Novela existencial,Español,1916-05-11T00:00:00Z,La familia de Pascual Duarte,Novela existencialista,Novela existencial,true,180000,1942-01-01T00:00:00Z
