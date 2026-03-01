@@ -35,3 +35,5 @@ Este comando:
 * Ejecuta toda la aplicación
 
 Ir al navegador y escribir: http://localhost:5173
+
+Link a video de YouTube [YouTube](https://www.youtube.com/watch?v=m6uIvICuyqQ)
