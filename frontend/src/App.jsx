@@ -10,8 +10,8 @@ function App() {
     <BrowserRouter>
       <nav>
         <div className="nav-content">
-          <a href="/books">Books</a>
-          <a href="/authors">Authors</a>
+          <a href="/books">Libros</a>
+          <a href="/authors">Autores</a>
           <a href="/import-csv">Import CSV</a>
         </div>
       </nav>

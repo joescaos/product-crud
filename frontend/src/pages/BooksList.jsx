@@ -22,18 +22,18 @@ export default function BooksList() {
 
   return (
     <div>
-      <h2>Books</h2>
-      <button onClick={() => navigate("/books/new")}>
-        Create Book
+      <h2>Libros</h2>
+      <button className="btn-primary" onClick={() => navigate("/books/new")}>
+        Crear Libro
       </button>
 
       <div className="table-wrapper">
         <table>
           <thead>
             <tr>
-              <th>Title</th>
-              <th>Genre</th>
-              <th>Actions</th>
+              <th>Título</th>
+              <th>Género</th>
+              <th>Acciones</th>
             </tr>
           </thead>
 
@@ -43,11 +43,11 @@ export default function BooksList() {
                 <td data-label="Title">{book.title}</td>
                 <td data-label="Genre">{book.genre}</td>
                 <td data-label="Actions">
-                  <button onClick={() => navigate(`/books/${book.id}`)}>
-                    Edit
+                  <button className="btn-secondary" onClick={() => navigate(`/books/${book.id}`)}>
+                    Editar
                   </button>
-                  <button onClick={() => handleDelete(book.id)}>
-                    Delete
+                  <button className="btn-danger" onClick={() => handleDelete(book.id)}>
+                    Eliminar
                   </button>
                 </td>
               </tr>

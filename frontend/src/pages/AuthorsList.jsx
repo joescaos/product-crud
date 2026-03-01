@@ -22,19 +22,19 @@ export default function AuthorsList() {
 
   return (
     <div>
-      <h2>Authors</h2>
-      <button onClick={() => navigate("/authors/new")}>
-        Create Author
+      <h2>Autores</h2>
+      <button className="btn-primary" onClick={() => navigate("/authors/new")}>
+        Crear Autor
       </button>
       <div className="table-wrapper">
         <table>
         <thead>
           <tr>
-            <th>Name</th>
-            <th>Last Name</th>
-            <th>Genre</th>
-            <th>Nationality</th>
-            <th>Actions</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Género</th>
+            <th>Nacionalidad</th>
+            <th>Acciones</th>
           </tr>
         </thead>
 
@@ -46,11 +46,11 @@ export default function AuthorsList() {
               <td data-label="Genre">{author.genre}</td>
               <td data-label="Nationality">{author.nationality}</td>
               <td data-label="Actions">
-                <button onClick={() => navigate(`/authors/${author.id}`)}>
-                  Edit
+                <button className="btn-secondary" onClick={() => navigate(`/authors/${author.id}`)}>
+                  Editar
                 </button>
-                <button onClick={() => handleDelete(author.id)}>
-                  Delete
+                <button className="btn-danger" onClick={() => handleDelete(author.id)}>
+                  Eliminar
                 </button>
               </td>
             </tr>

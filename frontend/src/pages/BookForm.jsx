@@ -87,26 +87,26 @@ export default function BookForm() {
 
   return (
     <div>
-      <h2>{id === "new" ? "Create Book" : "Edit Book"}</h2>
+      <h2>{id === "new" ? "Crear Libro" : "Editar Libro"}</h2>
 
       <form className="form-card" onSubmit={handleSubmit}>
         <input
           name="title"
-          placeholder="Title"
+          placeholder="Título"
           value={book.title}
           onChange={handleChange}
         />
 
         <input
           name="description"
-          placeholder="Description"
+          placeholder="Descripción"
           value={book.description}
           onChange={handleChange}
         />
 
         <input
           name="genre"
-          placeholder="Genre"
+          placeholder="Género"
           value={book.genre}
           onChange={handleChange}
         />
@@ -126,7 +126,7 @@ export default function BookForm() {
         />
 
         <label>
-          Available:
+          Disponible:
           <input
             type="checkbox"
             name="isAvailable"
@@ -140,7 +140,7 @@ export default function BookForm() {
           value={book.authorId}
           onChange={handleChange}
         >
-          <option value="">Select Author</option>
+          <option value="">Seleccionar autor</option>
           {authors.map((author) => (
             <option key={author.id} value={author.id}>
               {author.name} {author.lastName}
@@ -150,7 +150,7 @@ export default function BookForm() {
 
         <br /><br />
 
-        <button type="submit">Save</button>
+        <button type="submit">Guardar</button>
       </form>
     </div>
   );

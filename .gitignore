@@ -1,0 +1,32 @@
+# Root .gitignore for product-crud monorepo
+
+# macOS metadata
+.DS_Store
+
+# Node.js (frontend)
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.env
+/frontend/.env.local
+/frontend/.env.*.local
+
+# Java build artifacts (backend)
+/backend/target/
+/backend/.mvn/wrapper/maven-wrapper.jar
+
+# IDE/project files
+/.idea/
+*.iml
+/.vscode/
+
+# Log files
+*.log
+
+# Docker files (if any build output folders)
+
+# Temporary files
+*.tmp
+
+# Ignore workspace settings
+.vscode/
+.idea/

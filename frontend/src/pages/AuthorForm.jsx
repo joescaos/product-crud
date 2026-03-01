@@ -66,33 +66,33 @@ export default function AuthorForm() {
 
   return (
     <div>
-      <h2>{id === "new" ? "Create Author" : "Edit Author"}</h2>
+      <h2>{id === "new" ? "Crear Autor" : "Editar Autor"}</h2>
 
       <form className="form-card"onSubmit={handleSubmit}>
         <input
           name="name"
-          placeholder="Name"
+          placeholder="Nombre"
           value={author.name}
           onChange={handleChange}
         />
 
         <input
           name="lastName"
-          placeholder="Last Name"
+          placeholder="Apellido"
           value={author.lastName}
           onChange={handleChange}
         />
 
         <input
           name="genre"
-          placeholder="Genre"
+          placeholder="Género"
           value={author.genre}
           onChange={handleChange}
         />
 
         <input
           name="nationality"
-          placeholder="Nationality"
+          placeholder="Nacionalidad"
           value={author.nationality}
           onChange={handleChange}
         />
@@ -104,7 +104,7 @@ export default function AuthorForm() {
           onChange={handleChange}
         />
 
-        <button type="submit">Save</button>
+        <button type="submit">Guardar</button>
       </form>
     </div>
   );
