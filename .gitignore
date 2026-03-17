@@ -30,3 +30,5 @@
 # Ignore workspace settings
 .vscode/
 .idea/
+
+.env*
